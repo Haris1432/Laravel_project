@@ -9,4 +9,7 @@ class TitleController extends Controller
     public function index(){
         return "title";
     }
+    public function goodbye(){
+        return "Allah Hafiz!";
+    }
 }
